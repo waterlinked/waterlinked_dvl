@@ -6,7 +6,8 @@ and DVL-A125. Get started with waterlinked_dvl by installing the project,
 exploring the implemented library [examples](https://github.com/waterlinked/waterlinked_dvl/tree/main/libwaterlinked/examples),
 or by launching the ROS 2 driver.
 
-:note: This project was graciously donated to us by the [Robotic Decision Making Lab](https://github.com/Robotic-Decision-Making-Lab).
+> [!NOTE]
+> This project was graciously donated to us by the [Robotic Decision Making Lab](https://github.com/Robotic-Decision-Making-Lab).
 
 ## Installation
 
