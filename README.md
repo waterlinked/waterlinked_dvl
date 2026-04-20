@@ -3,12 +3,10 @@
 waterlinked_dvl is a C++ library and ROS 2 driver designed to interface with
 [Water Linked DVL devices](https://waterlinked.com/dvl), including the DVL-A50
 and DVL-A125. Get started with waterlinked_dvl by installing the project,
-exploring the implemented library [examples](https://github.com/Robotic-Decision-Making-Lab/waterlinked_dvl/tree/main/examples),
+exploring the implemented library [examples](https://github.com/waterlinked/waterlinked_dvl/tree/main/libwaterlinked/examples),
 or by launching the ROS 2 driver.
 
-> :warning: This project is not affiliated with or maintained by Water Linked.
-> Please refer to the Water Linked [GitHub Organization](https://github.com/waterlinked/)
-> for all official software.
+:note: This project was graciously donated to us by the [Robotic Decision Making Lab](https://github.com/Robotic-Decision-Making-Lab).
 
 ## Installation
 
@@ -16,7 +14,7 @@ To install waterlinked_dvl, first clone the repository to the `src/` directory
 of your ROS 2 workspace
 
 ```bash
-git clone git@github.com:Robotic-Decision-Making-Lab/waterlinked_dvl.git
+git clone git@github.com:waterlinked/waterlinked_dvl.git
 ```
 
 Then install the project dependencies using vcstool and rosdep
@@ -52,8 +50,7 @@ for descriptions of all the DVL configuration parameters.
 ## Getting help
 
 If you have questions regarding usage of waterlinked_dvl or regarding contributing
-to this project, please ask a question on our [Discussions](https://github.com/Robotic-Decision-Making-Lab/waterlinked_dvl/discussions)
-board.
+to this project, please contact our [customer support](https://www.waterlinked.com/support)
 
 ## License
 
