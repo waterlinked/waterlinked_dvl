@@ -18,10 +18,16 @@ of your ROS 2 workspace
 git clone git@github.com:waterlinked/waterlinked_dvl.git
 ```
 
+Move back to the root of the ROS 2 workspace:
+
+```bash
+cd ..
+```
+
 Then install the project dependencies using rosdep
 
 ```bash
-rosdep install --from paths src -y --ignore-src
+rosdep install --from-paths src -y --ignore-src
 ```
 
 Finally, build the workspace using colcon
@@ -44,7 +50,7 @@ ros2 launch waterlinked_dvl_driver dvl.launch.py
 
 A sample configuration file can be found in `waterlinked_dvl_driver/config/dvl.yaml`,
 and the full list of parameters can be found in `waterlinked_dvl_driver/src/waterlinked_dvl_driver_parameters.yaml`.
-Refer to the [protocol documentation](https://docs.waterlinked.com/dvl/dvl-protocol/)
+Refer to the [protocol documentation](https://docs.waterlinked.com/dvl/dvl-json-protocol/)
 for descriptions of all the DVL configuration parameters.
 
 ## Getting help
