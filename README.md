@@ -50,7 +50,7 @@ ros2 launch waterlinked_dvl_driver dvl.launch.py
 
 A sample configuration file can be found in `waterlinked_dvl_driver/config/dvl.yaml`,
 and the full list of parameters can be found in `waterlinked_dvl_driver/src/waterlinked_dvl_driver_parameters.yaml`.
-Refer to the [protocol documentation](https://docs.waterlinked.com/dvl/dvl-protocol/)
+Refer to the [protocol documentation](https://docs.waterlinked.com/dvl/dvl-json-protocol/)
 for descriptions of all the DVL configuration parameters.
 
 ## Getting help
